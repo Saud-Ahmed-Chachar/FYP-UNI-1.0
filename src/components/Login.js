@@ -22,7 +22,7 @@ const Login = () => {
   return (
     <div className="min-h-screen bg-gray-100 py-6 flex flex-col justify-center sm:py-12">
       <div className="relative py-3 sm:max-w-xl sm:mx-auto">
-        <div className="absolute inset-0 bg-gradient-to-r from-cyan-400 to-sky-500 shadow-lg transform -skew-y-6 sm:skew-y-0 sm:-rotate-6 sm:rounded-3xl"></div>
+        <div className="absolute inset-0 bg-gradient-to-r from-indigo-700 to-blue-500 shadow-lg transform -skew-y-6 sm:skew-y-0 sm:-rotate-6 sm:rounded-3xl"></div>
         <div className="relative px-4 py-10 bg-white shadow-lg sm:rounded-3xl sm:p-20">
           <div className="max-w-md mx-auto">
             <form onSubmit={handleLogin} className="divide-y divide-gray-200">
@@ -57,7 +57,7 @@ const Login = () => {
                   Password
                 </label>
                 <div className="flex justify-center mt-6">
-                  <button type="submit" className="bg-cyan-500 text-white rounded-md px-4 py-2 w-full transform hover:scale-105 transition-transform">
+                  <button type="submit" className="bg-indigo-700 text-white rounded-md px-4 py-2 w-full transform hover:scale-105 transition-transform">
                     Login
                   </button>
                 </div>
